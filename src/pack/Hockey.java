@@ -21,4 +21,9 @@ public class Hockey extends Sport {
         super.makeGoal();
         super.penalty();
     }
+
+    @Override
+    public void addPoint() {
+        
+    }
 }

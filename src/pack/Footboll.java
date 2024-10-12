@@ -1,12 +1,22 @@
 package pack;
 
-import java.util.List;
-
 public class Footboll extends Sport  {
 
-    public Footboll(List<Player> listOfPlayers, String loction, int totalPlayer) {
-        super(listOfPlayers, loction, totalPlayer);
+    String foot;
+
+    public Footboll(String loction, int totalPlayer, String foot) {
+        super(loction, totalPlayer);
+        this.foot = foot;
         
     }
+
+    @Override
+    public void addPoint() {
+        super.makeGoal();
+        super.penalty();
+        
+    }
+
+    
 
 }

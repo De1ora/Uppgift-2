@@ -3,7 +3,7 @@ package pack;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Sport {
+public abstract class Sport {
     private List<Player> listOfPlayer;
     private String location;
     private int totalPlayer;
@@ -21,4 +21,8 @@ public class Sport {
     public void penalty() {
         System.out.println("Parent class penalty.");
     }
+
+    public abstract void addPoint();
+
+    
 }

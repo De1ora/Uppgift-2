@@ -8,6 +8,9 @@ public class Main {
 
         hk.makeGoal();
         hk.penalty();
+
+        Entity ett = new Entity();
+        
         
         
 
