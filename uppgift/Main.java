@@ -8,5 +8,7 @@ public class Main {
 
         Dog dog = new Dog(); // Exempel på polymorphism, se Dog.java
         dog.makeSound();
+        dog.makeSound();
+
     }
 }
